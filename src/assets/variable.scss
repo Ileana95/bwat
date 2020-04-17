@@ -1,0 +1,223 @@
+$blue: #2debdb;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+$font: 'Montserrat', sans-serif;
+
+@font-face {
+  font-family: Gotham;
+  src: local(GothamThin),
+  url(/path/to/GothamThin.woff2) format("woff2"),
+  url(/path/to/GothamThin.woff) format("woff"),
+  url(/path/to/GothamThin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Gotham;
+  src: local(GothamLight),
+  url(/path/to/GothamLight.woff2) format("woff2"),
+  url(/path/to/GothamLight.woff) format("woff"),
+  url(/path/to/GothamLight.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Gotham;
+  src: local(Gotham-Book),
+  url(/path/to/Gotham-Book.woff2) format("woff2"),
+  url(/path/to/Gotham-Book.woff) format("woff"),
+  url(/path/to/Gotham-Book.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Gotham;
+  src: local(Gotham-Medium),
+  url(/path/to/Gotham-Medium.woff2) format("woff2"),
+  url(/path/to/Gotham-Medium.woff) format("woff"),
+  url(/path/to/Gotham-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Gotham;
+  src: local(GothamBlack),
+  url(/path/to/GothamBlack.woff2) format("woff2"),
+  url(/path/to/GothamBlack.woff) format("woff"),
+  url(/path/to/GothamBlack.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+}
+.Texte_Header {
+  font-family: $font;
+  font-size: 95px;
+  font-weight: 900;
+  line-height: 90px;
+  color: #ffffff;
+}
+h1{
+  font-family: $font;
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 90px;
+  color: #ffffff;
+}
+.Titre-liste-projets {
+  font-family: $font;
+  font-size: 70px;
+  font-weight: 100;
+  color: #ffffff;
+}
+.Titre-Liste-Projets-Noir {
+  font-family: $font;
+  font-size: 70px;
+  font-weight: 100;
+  color: #000000;
+}
+.H2_Vert {
+  font-family: $font;
+  font-size: 65px;
+  font-weight: 900;
+  line-height: 80px;
+  color: #2d6b74;
+}
+.H2_Noir {
+  font-family: $font;
+  font-size: 65px;
+  font-weight: 900;
+  line-height: 80px;
+  color: #000000;
+}
+.H2_Blanc {
+  font-family: $font;
+  font-size: 65px;
+  font-weight: 900;
+  line-height: 90px;
+  color: #ffffff;
+}
+.H3_Noir {
+  font-family: $font;
+  font-size: 55px;
+  line-height: 65px;
+  color: #000000;
+}
+.H1_Blanc-Mobile {
+  font-family: $font;
+  font-size: 43px;
+  font-weight: 900;
+  line-height: 44px;
+  color: #ffffff;
+}
+.Sous_Titre-Vert {
+  font-family: $font;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 42px;
+  color: #2d6b74;
+}
+.Sous_Titre {
+  font-family: $font;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 42px;
+  color: #ffffff;
+}
+.Sous_Titre-gris {
+  font-family: $font;
+  font-size: 30px;
+  line-height: 42px;
+  color: #707070;
+}
+.Button-Noir {
+  font-family: $font;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+.Motscls {
+  font-family: $font;
+  font-size: 28px;
+  line-height: 46px;
+  color: #2d6b74;
+}
+.H2_Vert_Mobile {
+  font-family: $font;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 30px;
+  color: #2d6b74;
+}
+.H2_Noir_Mobile {
+  font-family: $font;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 30px;
+  color: #000000;
+}
+.H2_Blanc_Mobile {
+  font-family: $font;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 30px;
+  color: #ffffff;
+}
+.p-blanc {
+  font-family: $font;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #ffffff;
+}
+p {
+  font-family: $font;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #000000;
+}
+.H3_Noir-Mobile {
+  font-family: $font;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000000;
+}
+.Button-Blanc {
+  font-family: $font;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: $blue;
+}
+.Sous_Titre_Mobile-vert {
+  font-family: $font;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #2d6b74;
+}
+.Sous_Titre_Mobile {
+  font-family: $font;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
+}
+.Sous_Titre_Mobile-gris {
+  font-family: $font;
+  font-size: 15px;
+  line-height: 18px;
+  color: #707070;
+}
+.P-Mobile {
+  font-family: $font;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #000000;
+}

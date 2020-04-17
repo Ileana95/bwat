@@ -1,0 +1,25 @@
+.slider {
+  height: 100vh;
+  background-image: url('/slide-couv.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 13px solid $blue;
+  position:relative;
+  &:before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: #000;
+    opacity: 0.4;
+    top: 0;
+    position: absolute;
+  }
+  h1 {
+    padding-top: 30vh;
+    padding-left: 100px;
+    max-width: 1000px;
+    z-index: 2;
+    position: relative;
+  }
+}
