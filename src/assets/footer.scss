@@ -1,0 +1,19 @@
+footer{
+	.bloc-blue {
+    	padding: 100px 0;
+    	background: $blue;
+   		margin-top: 100px;
+   		
+   		h3{
+   		font-family: $font;
+   		font-weight:300;
+		font-size: 65px;
+		color: #2D6B74;
+		letter-spacing: 0;
+		line-height: 80px;
+		}
+		.subtitle{
+		color: #2D6B74;
+		}
+	}
+}

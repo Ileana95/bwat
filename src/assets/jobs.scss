@@ -1,0 +1,31 @@
+.all-jobs{
+  margin-top:48px;
+  .subtitle{
+    color:#707070;
+    margin-bottom: 76px;
+  }
+  h2{
+      margin-bottom: 60px;
+      strong{
+    	position: relative;
+    	top: 35px;
+    	}
+    	&:after{
+    	    top: 32px;
+    	    }
+	}
+  .job {
+    img{
+      width:100%;
+    }
+    p{
+      font-size: 22px;
+      color: #707070;
+      letter-spacing: 0;
+      line-height: 32px;
+    }
+    h3{
+      margin: 23px 0 10px;
+    }
+  }
+}

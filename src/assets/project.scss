@@ -1,5 +1,30 @@
-.project-list {
-  .description .letter {
-    opacity: 0;
+.all-projects{
+  background: $dark-blue;
+  padding: 70px 0;
+  background-size:cover;
+  .title{
+    font-weight: 200;
+    font-size: 70px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 70px;
+    margin-bottom: 50px;
+  }
+  .date {
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FEFFFF;
+    letter-spacing: 0.75px;
+    line-height: 25px;
+  }
+  .subtitle {
+    margin-bottom: 100px;
+  }
+  h2 {
+    color: #fff;
+    strong {
+      font-weight: 900;
+    }
   }
 }
